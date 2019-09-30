@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby to GitHub Pages`,
+    title: `Gatsby to GitHub Pages hello`,
     description: `A simple implementation of deploying Gatsby site to GitHub Pages.`,
     author: `@MaedahBatool`,
     siteUrl: `https://maedahbatool.com`,
