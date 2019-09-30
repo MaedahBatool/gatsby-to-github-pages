@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My Demo Site's RSS Feed]]></title><description><![CDATA[Kick off with your next, Gatsby website by optimizing it for sitemaps, handling markdown pages, embedding videos and rss feed.]]></description><link>https://maedahbatool.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Sep 2019 08:07:01 GMT</lastBuildDate><item><title><![CDATA[My blog post for WordSesh September 2019 edition.]]></title><link>https://maedahbatool.com/1/</link><guid isPermaLink="false">https://maedahbatool.com/1/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 71.42857142857143%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
+          &gt;
+            &lt;div class=&quot;embedVideo-container&quot;&gt;
+            &lt;iframe src=&quot;https://www.youtube.com/embed/2Xc9gXyf2G4?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/p&gt;
+  &lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+&lt;p&gt; 
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 71.42857142857143%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
+          &gt;
+            &lt;div class=&quot;embedVideo-container&quot;&gt;
+            &lt;iframe src=&quot;https://player.vimeo.com/video/76979871&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/p&gt;</content:encoded></item></channel></rss>
