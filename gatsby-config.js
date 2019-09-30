@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `WordSesh September 2019`,
-    description: `Kick off with your next, Gatsby website by optimizing it for sitemaps, handling markdown pages, embedding videos and rss feed.`,
+    title: `Gatsby to GitHub Pages`,
+    description: `A simple implementation of deploying Gatsby site to GitHub Pages.`,
     author: `@MaedahBatool`,
     siteUrl: `https://maedahbatool.com`,
     siteUrlNoSlash: `https://maedahbatool.com`,
-    // pathPrefix: "/gatsby-to-github-pages", // Deploy Gatsby site to GitHub Pages.
+    pathPrefix: "/gatsby-to-github-pages", // Deploy Gatsby site to GitHub Pages.
   },
   plugins: [
     // Adding Sitemap to Your Gatsby Blog
