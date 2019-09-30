@@ -1,4 +1,4 @@
-# Optimizing Your Gatsby.js Website for Production
+<!-- # Optimizing Your Gatsby.js Website for Production
 
 ![gatsby-site-production](https://on.ahmda.ws/275123/c)
 
@@ -125,4 +125,4 @@ It needs the following two plugins as a pre-reqs:
 After you have optimized your Gatsby website for the aforementioned functionalities you can run the final build command and then deploy it to some live environment. I am a huge fan of **Netlify** and host all my JAMstack sites through it.
 
 That's about it! I hope you find this learning material helpful. You can share your feedback by 🌟this repo. For any queries and suggestions PRs are welcomed.
-> 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool/) →**
+> 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool/) →** -->
