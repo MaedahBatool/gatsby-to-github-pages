@@ -7,6 +7,36 @@ module.exports = {
     siteUrlNoSlash: `https://maedahbatool.com`,
   },
   plugins: [
+    // Adding Sitemap to Your Gatsby Blog
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+      }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          }),
+      },
+    },
     // Adding RSS Feed to Your Gatsby Blog
 
     {
@@ -67,36 +97,6 @@ module.exports = {
         ],
       },
     },
-    // Adding Sitemap to Your Gatsby Blog
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        query: `
-        {
-          site {
-            siteMetadata {
-              siteUrl
-            }
-          }
-
-          allSitePage {
-            edges {
-              node {
-                path
-              }
-            }
-          }
-      }`,
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
-              changefreq: `daily`,
-              priority: 0.7,
-            }
-          }),
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -107,7 +107,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`, //Step #1: Read files into Gatsby from the filesystem
       options: {
         name: `markdown-pages`,
         path: `${__dirname}/src/markdown-pages`,
@@ -115,7 +115,7 @@ module.exports = {
     },
     // Remark.
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-transformer-remark`, // Step#2: Transform Markdown to HTML and frontmatter to data
       options: {
         plugins: [
           {
@@ -126,7 +126,7 @@ module.exports = {
               ratio: 1.77,
               height: 400,
               related: false,
-              noIframerder: true,
+              noIframeborder: true,
             },
           },
           {
