@@ -5,7 +5,7 @@ module.exports = {
     author: `@MaedahBatool`,
     siteUrl: `https://maedahbatool.com`,
     siteUrlNoSlash: `https://maedahbatool.com`,
-    pathPrefix: "/gatsby-to-github-pages", // Deploy Gatsby site to GitHub Pages.
+    // pathPrefix: "/gatsby-to-github-pages", // Deploy Gatsby site to GitHub Pages.
   },
   plugins: [
     // Adding Sitemap to Your Gatsby Blog
